@@ -1,4 +1,4 @@
-## MyOwnHelloWorld
+## MyOwnHelloWorld App
 
 ### App Description
 `TODO://` Add app description
