@@ -1,10 +1,9 @@
 ## MyOwnHelloWorld App
 
 ### App Description
-`TODO://` Add app description
+This android app change the text to whatever the user writes within the EditText field. Also, it changes the text to a default whenever no text is input and the button is clicked. Furthermore, there is a button that changes the color of the background as well as another button that changes the font color. Finally, clicking the background restores all values to its original position.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
 <img src="http://g.recordit.co/ylW9rL3TFC.gif" width=200><br>
 
