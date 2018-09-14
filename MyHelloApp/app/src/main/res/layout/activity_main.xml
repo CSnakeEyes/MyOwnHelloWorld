@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootView"
+    android:background="@color/niceBlue"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/text_et"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        tools:text="Type some text here" />
+
+    <TextView
+        android:id="@+id/greeting_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="193dp"
+        android:text="@string/greetingText"
+        android:textColor="@color/coolColor"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/text_color_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="Change Text Color" />
+
+    <Button
+        android:id="@+id/bg_color_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="119dp"
+        android:text="Change Background Color" />
+
+    <Button
+        android:id="@+id/text_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="188dp"
+        android:text="Change Text" />
+</RelativeLayout>
